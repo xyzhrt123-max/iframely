@@ -1,5 +1,5 @@
 export default {
-  port: process.env.PORT || 3000,
+  port: process.env.PORT,   // HARUS process.env.PORT
   host: '0.0.0.0',
   whitelist: ['*'],
   cors: true
